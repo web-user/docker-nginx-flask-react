@@ -1,8 +1,7 @@
 {
-  "name": "@tiburon-security/petrichor-dashboard",
-  "version": "0.6.3",
-  "homepage": "https://github.com/tiburon-security/petrichor-dashboard",
-  "license": "MIT",
+  "name": "dashboard",
+  "version": "0",
+  "homepage": "",
   "devDependencies": {
     "babel-plugin-macros": "^2.4.5",
     "react-scripts": "^2.1.3"
