@@ -1,0 +1,7 @@
+gunicorn>=19.7.1
+flask
+flask-restful
+Flask-SQLAlchemy==2.1
+Flask-Script==2.0.6
+Flask-Moment==0.6.0
+Flask-Migrate==2.1.1

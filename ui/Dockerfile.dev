@@ -1,0 +1,19 @@
+##########
+# Downloads & compiles create-react-app, saving built app to shared volume
+###########
+
+FROM node
+
+WORKDIR /app
+
+COPY . /client app/
+WORKDIR app
+
+# install and cache app dependencies
+COPY package.json app/package.json
+
+RUN yarn
+
+EXPOSE 3000
+
+CMD ["yarn", "start", "&"]
